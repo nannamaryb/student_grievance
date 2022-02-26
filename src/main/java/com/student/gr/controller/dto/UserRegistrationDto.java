@@ -7,6 +7,11 @@ public class UserRegistrationDto {
 	private String department;
 	private String password;
 	
+	public UserRegistrationDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public UserRegistrationDto(String name, String email, String department, String password) {
 		super();
 		this.name = name;

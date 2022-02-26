@@ -5,5 +5,5 @@ import com.student.gr.model.User;
 
 public interface UserService {
 
-	User save(UserRegistrationDto registrationDto);
+	User save(UserRegistrationDto registrationDto); 
 }
