@@ -15,11 +15,14 @@ public class Role {
 	private Integer id;
 	private String name;	
 	
+
+	public Role() {
+	}
+	
 	public Role(String name) {
 		super();
 		this.name = name;
 	}
-
 
 	public Integer getId() {
 		return id;
@@ -36,3 +39,4 @@ public class Role {
 	
 	
 }
+ 
